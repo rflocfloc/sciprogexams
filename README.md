@@ -1,4 +1,4 @@
-# sciprogexams
+# Scientific Programming Exams
 
 An exam database of the course Scientific Programming for DataScience and Quantitative and Computational Biology (University of Trento)
 
