@@ -1,0 +1,7 @@
+site_name: ScientificProgramming Exams
+site_url: https://sciprogexams.github.io
+nav:
+  - Home: index.md
+  - QCB: qcb.md
+  - DS: ds.md
+theme: readthedocs
