@@ -13,10 +13,10 @@ If folder/folders are **NOT** already present, create them, the structure and sy
 
 ``` 
 .
-|___ docs/
-	  |___ yyyy_mm_dd/
-		    |___ ds/
-			|___ qcb/
+|--- docs/
+	  |--- yyyy_mm_dd/
+		|--- ds/
+		|--- qcb/
 
 ```
 
