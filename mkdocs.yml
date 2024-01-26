@@ -2,5 +2,10 @@ site_name: ScientificProgramming Exams
 site_url: https://rflocfloc.github.io/sciprogexams/
 nav:
   - Home: index.md
-  - 2024_01_22: 2024_01_22.md
+  - Data Science:
+     - 23_11_07_midterm: ds/2023_11_07.md
+     - 24_01_22: ds/2024_01_22.md
+  - QCB:
+     - 23_11_07_midterm: qcb/2023_11_07.md
+     - 24_01_22: qcb/2024_01_22.md
 theme: readthedocs
