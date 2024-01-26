@@ -6,7 +6,9 @@
 
 some text here, if you need images follow path of respective exam directory 
 
-![](/exams/yyyy_mm_dd/ds/file_of_interest.png)
+![](path/from/markdown/to/file)
+
+if you want to put an inline link the syntax is [](path/from/markdown/to/file)
 
 ### Exercise 2 [FIRST MODULE/SECOND MODULE]
 
