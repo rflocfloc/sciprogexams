@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rflocfloc.github.io/sciprogexams/template/</loc>
+         <lastmod>2024-01-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rflocfloc.github.io/sciprogexams/ds/2023_11_07/</loc>
+         <lastmod>2024-01-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rflocfloc.github.io/sciprogexams/ds/2023_12_19/</loc>
          <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -17,6 +27,11 @@
     </url>
     <url>
          <loc>https://rflocfloc.github.io/sciprogexams/qcb/2023_11_07/</loc>
+         <lastmod>2024-01-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rflocfloc.github.io/sciprogexams/qcb/2023_12_19/</loc>
          <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
