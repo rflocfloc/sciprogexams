@@ -1,0 +1,64 @@
+{
+    "2023": {
+        "Data Engineering": [
+            139405.17647058822,
+            43277.85191912329
+        ],
+        "Machine Learning and AI": [
+            163960.61111111112,
+            66701.8988986228
+        ],
+        "Data Science and Research": [
+            156256.53846153847,
+            56377.810458501095
+        ],
+        "Data Analysis": [
+            129681.81818181818,
+            37436.99721305888
+        ],
+        "Data Architecture and Modeling": [
+            148750.0,
+            41250.0
+        ],
+        "Leadership and Management": [
+            134666.66666666666,
+            34169.51207663867
+        ],
+        "BI and Visualization": [
+            108250.0,
+            31750.0
+        ]
+    },
+    "2022": {
+        "Machine Learning and AI": [
+            160516.0,
+            60679.59000355886
+        ],
+        "Data Science and Research": [
+            73105.0,
+            17600.720397188292
+        ],
+        "Data Engineering": [
+            146140.66666666666,
+            29468.773997044547
+        ],
+        "Data Architecture and Modeling": [
+            141550.0,
+            50850.0
+        ],
+        "Data Analysis": [
+            91520.0,
+            31814.55013040417
+        ]
+    },
+    "2021": {
+        "Data Science and Research": [
+            103691.0,
+            43905.76558949861
+        ],
+        "Data Analysis": [
+            71786.0,
+            0.0
+        ]
+    }
+}
