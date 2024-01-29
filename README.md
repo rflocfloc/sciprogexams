@@ -13,11 +13,11 @@ If folder/folders are **NOT** already present, create them, the structure and sy
 
 ``` bash
 .
-|--- docs/
-	  |--- yyyy_mm_dd/
-		|--- ds/
-		|--- qcb/
-
+├── docs
+│   └── yyyy_mm_dd
+│       ├── ds
+│       └── qcb
+└── lazy_template.md
 ```
 
  exams folders are name with **year_month_day** . All the material of the exam divided by course will be stored into docs/yyyy_mm_dd/{ds, qcb}/ .
@@ -37,24 +37,25 @@ The structure of the exam material will result in something like:
 
 ```bash
 .
-|--- docs/
-	  |--- yyyy_mm_dd/
-		|--- ds/
-		|	|--- web_page.md
-		|	|--- exam_material/
-		|		|--- exercise1.py
-		|		|--- exam.pdf
-		|		|--- data/
-		|		|--- solutions/
-		|	
-		|--- qcb/
-			|--- web_page.md	
-			|--- exam_material/
-				|--- exercise1.py
-				|--- exam.pdf
-				|--- data/
-				|--- solutions/
-
+├── docs
+│   └── yyyy_mm_dd
+│       ├── ds
+│       │   ├── exam_material
+│       │   │   ├── data
+│       │   │   ├── exam.pdf
+│       │   │   ├── exercise1.py
+│       │   │   └── solutions
+│       │   ├── exam_material.zip
+│       │   └── web_page.md
+│       └── qcb
+│           ├── exam_material
+│           │   ├── data
+│           │   ├── exam.pdf
+│           │   ├── exercise1.py
+│           │   └── solutions
+│           ├── exam_material.zip
+│           └── web_page.md
+└── lazy_template.md
 ```
 
 Once the folder is ready zip it (convention is as ```exam_material.zip```). Add the relative path to the ```exam_material.zip``` inside the ```web_page.md``` file.
