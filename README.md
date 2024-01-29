@@ -1,6 +1,6 @@
 # Scientific Programming Exams
 
-An exam database of the course Scientific Programming for DataScience and Quantitative and Computational Biology (University of Trento)
+An exam database of the course Scientific Programming for Data Science and Quantitative and Computational Biology (University of Trento)
 
 
 ## How to
