@@ -11,7 +11,7 @@ All the material is contained inside the ```docs``` folder. When it comes to add
 
 If folder/folders are **NOT** already present, create them, the structure and syntax is the following:
 
-``` 
+``` bash
 .
 |--- docs/
 	  |--- yyyy_mm_dd/
@@ -24,14 +24,42 @@ If folder/folders are **NOT** already present, create them, the structure and sy
 
 ### 2. Create markdown for webpage
 
-Copy the ```template.md``` present in the ```docs``` folder to the wanted exam path and start modifying it: 
+Copy the ```lazy_template.md``` present in the ```docs``` folder to the wanted exam path and start modifying it: 
 
 ``` 
-cp template.md yyyy_mm_dd/{ds, qcb}/web_page.md
+cp lazy_template.md yyyy_mm_dd/{ds, qcb}/web_page.md
 ```
 
+### 3. Load and zip material
 
-### 3. Make web page available
+Load the exam material inside the ```ds``` or ```qcb``` folder (text, scripts and data necessary). Make sure to create also a ```solutions``` directory containing the solutions scripts inside the ```exam_material``` folder.
+The structure of the exam material will result in something like:
+
+```bash
+.
+|--- docs/
+	  |--- yyyy_mm_dd/
+		|--- ds/
+		|	|--- web_page.md
+		|	|--- exam_material/
+		|		|--- exercise1.py
+		|		|--- exam.pdf
+		|		|--- data/
+		|		|--- solutions/
+		|	
+		|--- qcb/
+			|--- web_page.md	
+			|--- exam_material/
+				|--- exercise1.py
+				|--- exam.pdf
+				|--- data/
+				|--- solutions/
+
+```
+
+Once the folder is ready zip it (convention is as ```exam_material.zip```). Add the relative path to the ```exam_material.zip``` inside the ```web_page.md``` file.
+
+### 4. Make web page available
 
 Add relative path to the ```web_page.md``` to the ```mkdocs.yml``` config file as a new entry of either Data Science or QCB specifying the wanted name for the menu (yy_mm_dd).
 
