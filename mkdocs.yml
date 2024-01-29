@@ -7,7 +7,7 @@ nav:
      - 23_12_19: todo.md
      - 24_01_22: todo.md
   - QCB:
-     - 23_11_07: todo.md
+     - 23_11_07: 2023_11_07/qcb/web_page.md
      - 23_12_19: 2023_12_19/qcb/web_page.md
      - 24_01_22: 2024_01_22/qcb/web_page.md
 theme: readthedocs
